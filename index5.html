@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O‘zbekiston va Jahon Tarixida Davlat Suvereniteti Ramzlari</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Montserrat & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Model Viewer Script (3D Modellar uchun) -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, .font-heading {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .slide {
+      display: none;
+      min-height: calc(100vh - 5rem);
+    }
+    .slide.active {
+      display: flex;
+      animation: fadeIn 0.4s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* Model-viewer maxsus uslublari */
+    model-viewer {
+      width: 100%;
+      height: 100%;
+      min-height: 350px;
+      --poster-color: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: rgba(30, 41, 59, 0.5);
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #3b82f6;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen bg-slate-900 text-slate-100">
+
+  <!-- Yuqori Navigatsiya Satri -->
+  <header class="w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 sticky top-0 z-50 px-4 py-3">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <div class="flex items-center space-x-3">
+        <span class="text-2xl">🏛️</span>
+        <h1 class="text-base md:text-lg font-bold text-amber-400 tracking-wide">
+          Davlat Suvereniteti, Ramzlar va Yorliqlar Tarixi
+        </h1>
+      </div>
+      <div class="flex items-center gap-4">
+        <span id="slide-indicator" class="text-sm font-semibold bg-slate-800 px-3 py-1 rounded-full text-cyan-400 border border-slate-700">
+          Slayd 1 / 20
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Asosiy Slayd Maydoni -->
+  <main class="flex-grow flex items-center justify-center p-4 md:p-8">
+    <div class="max-w-7xl w-full">
+
+      <!-- SLAYD 1 -->
+      <section class="slide active flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="1">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">1-qism: Antik Davr va Ilk Davlatchilik Kurtaklari</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">1-Slayd: Kirish va Siyosiy Legitimlik Falsafasi</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Assalomu alaykum, hurmatli ustozlar va guruhdoshlar. Bugungi mustaqil seminar darsimiz doirasida qadimgi dunyodan to hozirgi zamonaviy davrgacha yurtimiz va jahon tarixida davlat suverenitetini, mustaqilligini va qonuniyligini ifodalab kelgan ramzlar, unvonlar va yorliqlar tarixini tahlil qilamiz. Biz tarixda hech bir mustaqillik bo‘shliqda paydo bo‘lmaganini, har bir yangi davlat o‘zidan oldingi imperiyaning huquqiy tizimidan unvon yoki yorliq olib, so‘ngra mutlaq suverenitetga erishganini ko‘rib chiqamiz.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-amber-400/90 italic">
+            <strong>Manba:</strong> O‘zbekiston davlatchilik tarixi ocherklari. – Toshkent: Fan, 2001.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative group">
+          <model-viewer src="globus.glb" alt="Globus 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: globus.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 2 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="2">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">1-qism: Antik Davr va Ilk Davlatchilik Kurtaklari</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">2-Slayd: Amarna Maktublari — Teng Huquqli Diplomatiya</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Davlatlarning xalqaro maydonda bir-birining suverenitetini tan olishi tarixi juda qadimga borib taqaladi. Buning eng yorqin moddiy isboti miloddan avvalgi XIV asrga oid "Amarna arxivi"dir. Ushbu loy taxtachalarda Qadimgi Misr fir'avnlari hamda Yaqin Sharqning Bobil, Ossuriya kabi boshqa yirik podshohlari o‘zaro teng huquqli diplomatik aloqalar olib borgani aks etgan. Bu davrda maktublar shunchaki oddiy xat emas, balki ikki mustaqil davlatning bir-birini xalqaro huquq sub'ekti sifatida tan olish hujjati vazifasini bajargan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-amber-400/90 italic">
+            <strong>Manba:</strong> Moran, William L. The Amarna Letters. Johns Hopkins University Press, 1992. (Letters EA 367, EA 286).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="mihhat.glb" alt="Mihhat 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: mihhat.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 3 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="3">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">1-qism: Antik Davr va Ilk Davlatchilik Kurtaklari</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">3-Slayd: Axamaniylar Imperiyasi va "Data" Qonuniyati</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Miloddan avvalgi VI-IV asrlarda Markaziy Osiyoning katta qismi qadimgi Fors imperiyasiga bo‘ysungan davrlarda, markaziy hokimiyat vassal o‘lkalarga o‘z ta'sirini o‘tkazish uchun qat'iy huquqiy farmonlardan foydalangan. Doro I o‘zining mutlaq qudratini Behistun qoyalariga ulkan harflar bilan o‘yib yozdirgan. Bu davrda shohning toshga yoki teriga yozilgan, o‘zgartirib bo‘lmaydigan qonuniy farmonlari "Data" deb nomlangan. Bu hujjatlar imperiya hududidagi har bir noib (satrap) uchun podshoh irodasini va uning huquqiy daxlsizligini anglatuvchi ulkan davlat hujjati bo‘lib xizmat qilgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-amber-400/90 italic">
+            <strong>Manba:</strong> Kent, Roland G. Old Persian: Grammar, Texts, Lexicon. New Haven, 1953. (Behistun Inscriptions, DB I, DB II).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="behistun.glb" alt="Behistun 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: behistun.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 4 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="4">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">1-qism: Antik Davr va Ilk Davlatchilik Kurtaklari</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">4-Slayd: Salavkiylar Davri va "Epistolai" Farmonlari</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Aleksandr Makedonskiydan keyin Sharq hududiga g‘arbiy ellinistik davlat boshqaruvi va huquqiy institutlar kirib keldi. Salavkiy hukmdorlar unvoni "Basileus" (Oliy qirol) deb atalib, ular o‘zlariga qarashli shaharlarga, tumanlarga yoki yirik ibodatxonalarga maxsus muxtoriyat, daxlsizlik va soliq imtiyozlari berganlar. Bu narsa tarixda "Epistolai" va "Diagrammata" (shohona dekretlar) shaklida toshga o‘yib yozilgan. Agar shoh biror shahar hokimiga shunday rasmiy maktub topshirsa, o‘sha hudud o‘z-o‘zini qonuniy mustaqil boshqarish huquqini qo‘lga kiritgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-amber-400/90 italic">
+            <strong>Manba:</strong> Bickerman, Elias J. Institutions of the Seleucids. Paris, 1938. (Chapter II).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yunontangasi-v2.glb" alt="Yunon Tangasi 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yunontangasi-v2.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 5 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="5">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">1-qism: Antik Davr va Ilk Davlatchilik Kurtaklari</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">5-Slayd: Dovon va Qang‘ Davlatlari — Mahalliy Suverenitet Ramzlari</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Antik davrda, yurtimiz hududida mustaqil mahalliy o‘zbek davlatchiligining kurtaklari hisoblangan Farg‘onadagi Dovon va Sirdaryo havzasidagi Qang‘ davlatlari mavjud bo‘lgan. Xitoy imperatorlik manbalariga ko‘ra, Farg‘ona hukmdorlari "Muva", Qang‘ boshliqlari esa "Vang" unvoniga ega bo‘lib, Xitoy bilan teng huquqli diplomatik va harbiy bitimlar imzolashgan. Bu davlatlarning suverenitet ramzi sifatida Dovonning muqaddas "samoviy arg‘umon otlari" hamda Qang‘ davlatining bugun arxeologiyada topilgan kiyik va yirtqich hayvonlar tasvirlangan xususiy suyak muhrlari xizmat qilgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-amber-400/90 italic">
+            <strong>Manba:</strong> Бичурин Н. Я. (Иакинф). Собрание сведений о народах, обитавших в Средней Азии в древние времена. Москва-Ленинград, 1950. (Раздел о Давань и Кангюй).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="silindir-v1.glb" alt="Silindir Muhr 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: silindir-v1.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 6 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="6">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">2-qism: Kushonlardan Eftaliylargacha va Ilk O‘rta Asrlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">6-Slayd: Kushon Imperiyasi va "Shaonanoshao" Maqomi</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Milodiy I-III asrlarda hududimizda Rim va Xitoy bilan tenglashgan ulkan Kushon imperiyasi gullab-yashnadi. Kushon shohlari o‘z mustaqilligi va cheksiz hukmronligini ifodalash uchun "Shaonanoshao" (Shohlar shohi) hamda "Devaputra" (Xudo o‘g‘li) unvonlarini qabul qilishgan. Ularning qonuniy yorliqlari bugungi kungacha saqlanib qolgan Rabatak tosh bitigi kabi ulkan toshlarga yozilgan sulolaviy farmonlardir. Davlat mustaqilligining oliy ramzi sifatida esa hukmdor kallasining orqasidagi "Nimb" (muqaddas nur doirasi) va oltin tangalardagi maxsus sulolaviy tamg‘alar xizmat qilgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-cyan-400/90 italic">
+            <strong>Manba:</strong> Rtveladze E. V. The Kushan State and World Civilization. – Tashkent, 1999.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="Kushontangasi-v1.glb" alt="Kushon Tangasi 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: Kushontangasi-v1.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 7 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="7">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">2-qism: Kushonlardan Eftaliylargacha va Ilk O‘rta Asrlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">7-Slayd: Eftaliylar Davlati va Oydor Ramzlar</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              IV-VI asrlarda Movarounnahr va qo‘shni o‘lkalarda ko‘chmanchi va o‘troq madaniyatni birlashtirgan, hatto Sosoniylar imperiyasini o‘ziga boj to‘lashga majbur qilgan qudratli Eftaliylar davlati paydo bo‘ldi. Oliy hukmdorlar "Xvadeo" (Hukmdor) yoki "Kagan" (Xoqon) unvonini tashishgan. Eftaliylarda soliq undirish va mahalliy beklarga yer ajratish ishlari charmga yozilgan rasmiy bitimlar orqali amalga oshirilgan. Ularning suverenitet ramzi esa shoh tojining ustidagi muqaddas oydor yarim oy va shoxlar tasviri hamda shaxsiy davlat muhrlari bo‘lgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-cyan-400/90 italic">
+            <strong>Manba:</strong> Зеймаль Е. В. Древние монеты Таджикистана. – Душанбе, 1983. (Раздел об эфталитах).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="toj.glb" alt="Toj 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: toj.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 8 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="8">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">2-qism: Kushonlardan Eftaliylargacha va Ilk O‘rta Asrlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">8-Slayd: Buxorxudotlar va Ixshiddlar — Uzuk-Muhrlar Davri</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Arab istilosigacha bo‘lgan davrda Movarounnahr yagona markazlashgan davlat emas, balki mustaqil shahar-davlatlar konfederatsiyasi edi. Buxoroni "Buxor xudot" (Buxoro egasi), Samarqand va Farg‘onani esa "Ixshid" unvonli oliy hukmdorlar boshqargan. Ularning o‘zaro mustaqilligi va diplomatik bitimlari xatga tushirilgan. Bunga yaqqol misol — Mug‘ tog‘idan topilgan sug‘diy arxiv hujjatlaridir. Bu hujjatlar charm va pirusga yozilgan bo‘lib, hokimlarning shaxsiy tuya, sher yoki qoplon tasvirlangan uzuk-muhrlari bilan tasdiqlangan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-cyan-400/90 italic">
+            <strong>Manba:</strong> Боголюбов М. Н., Смирнова О. И. Согдийские документы с горы Муг. Востоковедение, 1963. (Документы Б-4, Б-8).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 9 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="9">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">2-qism: Kushonlardan Eftaliylargacha va Ilk O‘rta Asrlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">9-Slayd: Turk Hoqonligi — Erkinlik va Toshbitiklar</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              VI asrda xalqimiz davlatchiligi tarixida mutlaqo yangi sahifa ochildi — ulkan Turk hoqonligi tashkil topdi. Hoqonlarimiz o‘zlarining milliy mustaqilligini, qabilalarning birligini bitiktoshlarga abadiy muhrlab ketishdi. Bilga hoqon va Kultegin bitiklarida turk elining o‘ziga xos davlat tizimi borligi, u hech kimga qaram bo‘lmasligi va mustaqilligini asrab qolishi kerakligi xalqqa qat'iy vasiyat va buyruq (yorliq) shaklida yetkazilgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-cyan-400/90 italic">
+            <strong>Manba:</strong> Малов С. Е. Памятники древнетюркской письменности. Москва-Ленинград, 1951. (Стр. 23-45).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="bilgexan.glb" alt="Bilge Xon 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: bilgexan.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 10 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="10">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">2-qism: Kushonlardan Eftaliylargacha va Ilk O‘rta Asrlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">10-Slayd: Bo‘ri Boshli Tug‘ va Tamg‘alar — Milliy Ramzlar Cho‘qqisi</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Turk hoqonligining eng oliy va muqaddas davlat ramzi — bu bayroq, ya'ni Tug‘ bo‘lgan. Tarixiy manbalarda yozilishicha, hoqonlik bayrog‘ining uchida oltindan yasalgan Bo‘ri boshi tasviri bo‘lgan. Bo‘ri — ko‘chmanchi turkiy xalqlar uchun ozodlik, mardlik va hech kimga bo‘yin egmaslik timsoli hisoblangan. Harbiy yurishlarda va elchilarni qabul qilishda shu tug‘ning ko‘tarilishi davlatning to‘liq mustaqilligini namoyish etgan. Shuningdek, har bir urug‘ va davlatning o‘z mustaqil muhr-belgisi — Tamg‘asi bo‘lgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-cyan-400/90 italic">
+            <strong>Manba:</strong> Бичурин Н. Я. (Иакинф). Собрание сведений о народах, обитавших в Средней Азии в древние времена. Москва-Ленинград, 1950. (Летописи "Суйшу" и "Таньшу").
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="bori.glb" alt="Bo'ri Boshli Tug' 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: bori.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 11 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="11">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">3-qism: O‘rta Asrlar Sulolalari va Saltanatlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">11-Slayd: Abbosiylar va Somoniylar — "Manshur" Tushunchasi</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              VII-IX asrlarda yurtimiz Arab xalifaligi tarkibiga kirdi va islomiy davlatchilik huquqi shakllandi. IX asrda xalifalik zaiflashgach, Movarounnahrdagi Somoniylar sulolasi kuchaydi. Garchi somoniy amirlari o‘z yerlarida amalda mutlaq mustaqil bo‘lsalar-da, huquqiy jihatdan Bag‘dod xalifasiga bog‘liq edilar. Xalifa ularga hududni boshqarish qonuniyligini tasdiqlovchi oliy yorliq — "Manshur" va maxsus faxriy libos (Xalat) yuborgan. Somoniylar esa mustaqillik belgisi sifatida o‘z nomlaridan pul — "Sikka" (dirhamlar) zarb qilishgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-emerald-400/90 italic">
+            <strong>Manba:</strong> Narshaxiy. Buxoro tarixi. – Toshkent: Fan, 1993. (Somoniy amirlarining xalifalikdan manshur olish jarayonlari).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 12 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="12">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">3-qism: O‘rta Asrlar Sulolalari va Saltanatlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">12-Slayd: Somoniylardan Gaznaviylarga — Gvardiyadan Sultonlikka</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Gaznaviylar davlatining asoschilari dastlab Somoniylar saroyida xizmat qilgan oddiy turkiy harbiy gvardiya (g‘ulomlar) edi. Dastlab Gazna amirlari (Sebuk Tegin) Somoniy amirlaridan viloyat hokimligi haqida "Misol" (kichik yorliq) olishgan. Ammo vaqt o‘tib ular kuchaydi va Somoniylardan butunlay mustaqil bo‘ldi. Sulton Mahmud Gaznaviy Somoniylarni ag‘darib, o‘z mustaqilligini qonuniylashtirish uchun yorliqni (Manshurni) endi to‘g‘ridan-to‘g‘ri Bag‘dod xalifasining o‘zidan qabul qilib oldi va tariqda birinchi bo‘lib rasman "Sulton" unvonini ishlatdi.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-emerald-400/90 italic">
+            <strong>Manba:</strong> Бартольд В. В. Сочинения. Том II. Часть 1 (Туркестан в эпоху монгольского нашествия). Москва, 1963.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 13 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="13">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">3-qism: O‘rta Asrlar Sulolalari va Saltanatlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">13-Slayd: Gaznaviylardan Saljuqiylarga — "Sharq va G‘arb Sultoni"</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              XI asr boshida Sirdaryo bo‘ylaridan kelgan ko‘chmanchi o‘g‘uz-saljuq turklari kuchayib, Gaznaviylar hududiga kirishdi. Dastlab Saljuqiy bekliklar Gazna sultonlaridan yaylovlardan foydalanish uchun rasmiy ruxsatnoma va ittifoqchilik yorliqlari so‘rab yurishgan. Ammo 1040-yilda Dandanakan jangida Saljuqiylar Gaznaviylarni butunlay tor-mor etdi. Saljuqiy sulton To‘g‘rulbek Bag‘dodga kirib, xalifani dushmanlardan qutqargach, xalifa unga "Sharq va G‘arb sultoni" degan mutlaq unvon va butun islom dunyosining dunyoviy boshqaruv yorlig‘ini topshirdi.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-emerald-400/90 italic">
+            <strong>Manba:</strong> Босворт К. Э. Мусульманские династии. Москва: Наука, 1971.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 14 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="14">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">3-qism: O‘rta Asrlar Sulolalari va Saltanatlar</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">14-Slayd: Saljuqiylardan Xorazmshohlarga — Zanjirning Cho‘qqisi</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Bu sulolaning asoschisi Anushtegin dastlab Saljuqiylar saroyida "tastador" (shoh ichimliklariga mas'ul amaldor) bo‘lib xizmat qilgan oddiy g‘ulom edi. Saljuqiy sultonlar uni Xorazmga noib qilib tayinlashgan va ilk Xorazmshohlar (Otsiz) Saljuq sultonlaridan hokimlikni tasdiqlovchi "Mishon" va "Tavqi" (Yorliqlar) olishgan. Ammo Saljuqiylar parchalangach, Xorazmshoh Tekesh va uning o‘g‘li Muhammad ularning barcha yerlarini tortib olib, o‘zlarini dunyoning mutlaq hukmdori deb e'lon qilishdi va endi o‘zlari yorliq tarb qila boshladilar.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-emerald-400/90 italic">
+            <strong>Manba:</strong> Буниятов З. М. Государство Хорезмшахов-Ануштегинидов (1097–1231). Москва: Наука, 1986.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 15 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="15">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">4-qism: Temuriylar, Xonliklar va Zamonaviy Davr</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">15-Slayd: Oltin O‘rda va "Yorliq" Atamasining Siyosiy Sahnaga Chiqishi</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Mo‘g‘ullar istilosidan keyin, Oltin O‘rda (Jo‘ji ulusi) davriga kelib, "Yorliq" atamasi o‘zining klassik va mutlaq huquqiy ma'nosiga ega bo‘ldi. Oltin O‘rda xonlari ulkan imperiyani boshqarish uchun o‘z vassallariga, xususan rus knyazlariga maxsus yorliqlar (Жалованные грамоты) berishgan. Rus knyazi (masalan, Ivan Kalita yoki Dmitriy Donskoy) taxtga o‘tirishi va o‘z yerida qonuniy hukmdor bo‘lishi uchun Saroybotuga kelib, xondan shu yorliqni qo‘lga kiritishi shart edi. Ya'ni, yorliq o‘sha davrda oliy hokimiyat litsenziyasi bo‘lgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-purple-400/90 italic">
+            <strong>Manba:</strong> Усманов М. А. Жалованные акты Джучиева Улуса XIV–XVI вв. Казань, 1979. (Хрестоматия ярлыков Тохтамыша).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 16 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="16">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">4-qism: Temuriylar, Xonliklar va Zamonaviy Davr</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">16-Slayd: Unvonlar Siyosati — Amir Temur Nega Xon Bo‘lmagan?</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              O‘rta asrlar Sharq huquqida unvonlar shunchaki nom emas, oliy qonuniylik belgisi edi. Chingizxon qonuniga (Yaso) ko‘ra, faqat uning avlodigina "Xon" unvonini olishi mumkin edi. Buyuk hukmdor Amir Temur ulkan saltanat tuzgan bo‘lsa-da, u barlos urug‘idan bo‘lgani uchun xon bo‘la olmasdi. Siyosiy an'analarni buzmaslik uchun u taxtga chingiziy Suyurg‘atmishxonni, keyin Mahmudxonni o‘tqizib qo‘yadi. Davlat hujjatlari (yorliqlar) rasman xon nomi bilan chiqsa-da, tagiga "Amir Temur ko‘ragon so‘zim" (mening so‘zim) deb yozilgan. Ya'ni, unvon huquqiy parda, amaliy qudrat esa Amir qo‘lida edi.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-purple-400/90 italic">
+            <strong>Manba:</strong> Temur tuzuklari. Toshkent: G‘afur G‘ulom nashriyoti, 2021. (2-qism, "Saltanatni saqlash va qonuniylik tuzugi").
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 17 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="17">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">4-qism: Temuriylar, Xonliklar va Zamonaviy Davr</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">17-Slayd: Temuriylar Ramzlari — Uch Halqa va Payzalar</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Amir Temur davlatining o‘ziga xos va dunyoga mashhur ramzi — uchta halqa tasviri bo‘lgan. Mashhur sayyoh Ruy Gonsales de Klavixo o‘z bitiklarida yozishicha, bu uch halqa dunyoning uchta iqlimi (qismi) ustidan hukmronlik va buyuk suverenitet ramzi hisoblangan. Shuningdek, saroyda yuqori lavozimli elchilarga daxlsizlik ramzi sifatida oltin yoki kumush "Payza" (taxtacha) berilgan. Harbiy mustaqillik va unvon belgisi sifatida esa hukmdor tomonidan beklarga muqaddas Tug‘ (bayroq) va ulug‘ Nog‘ora topshirilgan. Soliq imtiyozi beruvchi hujjatlar esa "Tarxonlik yorlig‘i" deb atalgan.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-purple-400/90 italic">
+            <strong>Manba:</strong> Clavijo, Ruy González de. Embajada a Tamorlán (Amir Temur saroyiga elchilik kundaligi). – Madrid, 1582.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 18 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="18">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">4-qism: Temuriylar, Xonliklar va Zamonaviy Davr</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">18-Slayd: O‘zbek Xonliklari va Muhrli Farmonlar</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              XVI-XIX asrlarda yurtimiz hududida mavjud bo‘lgan Buxoro, Xiva va Qo‘qon xonliklari davrida davlatchilik an'analari davom etdi. Bu davrda xonlarning har bir buyrug‘i, xorijiy davlatlarga (Rossiya, Usmonli imperiyasi, Xitoyga) yuboradigan maktublari va mahalliy beklarga beradigan yer-mulk yorliqlari maxsus "Oltin muhrlar" bilan tasdiqlangan. Bu muhrlar davlatning xalqaro maydondagi mustaqilligini va xon irodasining qonuniyligini ko‘rsatgan. Biroq XIX asr oxirida Rossiya imperiyasi bosqini (masalan, 1873-yilgi Gandimiyon shartnomasi) natijasida xonliklar mustaqil yorliq berish va tashqi siyosat huquqidan butunlay mahrum bo‘ldi va suverenitet cheklandi.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-purple-400/90 italic">
+            <strong>Manba:</strong> Иванов П. П. Архив хивинских ханов XIX в. Ленинград, 1940. (Официальные ярлыки и указы с печатями).
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="yorliq.glb" alt="Yorliq 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: yorliq.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 19 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="19">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">4-qism: Temuriylar, Xonliklar va Zamonaviy Davr</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">19-Slayd: Zamonaviy Mustaqillik va Davlat Ramzlari</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              1991-yil 1-sentabrda xalqimiz o‘zining haqiqiy milliy mustaqilligiga erishdi. Bugungi zamonaviy dunyoda qadimgi xon yorliqlarining o‘rnini milliy Konstitutsiya va 1990-yil 20-iyunda qabul qilingan "Davlat mustaqilligi to‘g‘risidagi Deklaratsiya" kabi oliy huquqiy hujjatlar egalladi. Davlat mustaqilligining ramzlari esa Davlat Bayrog‘i, Gerbi va Madhiyasidir. Ushbu ramzlar BMT binosi oldida va jahon arenasida O‘zbekiston Respublikasining mustaqil, teng huquqli va suveren davlat ekanligini butun dunyoga namoyish etib turibdi. Hozirgi davrda hokimiyat manbasi xonlar emas, balki Xalqdir.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-purple-400/90 italic">
+            <strong>Manba:</strong> O‘zbekiston Respublikasining Konstitutsiyasi. 5-modda.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="gerb.glb" alt="Davlat Gerbi 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: gerb.glb</div>
+        </div>
+      </section>
+
+      <!-- SLAYD 20 -->
+      <section class="slide flex-col lg:flex-row items-center gap-8 bg-slate-800/50 p-6 md:p-10 rounded-2xl border border-slate-700/60 shadow-2xl backdrop-blur-sm" data-slide="20">
+        <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+          <div>
+            <div class="inline-block px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-md uppercase tracking-wider mb-3">4-qism: Temuriylar, Xonliklar va Zamonaviy Davr</div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-tight">20-Slayd: Xulosa — Tarixiy Davomiylik</h2>
+            <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+              Xulosa qilib aytganda, qadimgi loy taxtachalardan boshlangan, Turk hoqonligining bo‘ri boshli tug‘lari, Amir Temurning uch halqali muhrlari va o‘rta asrlarning o‘sha murakkab "vassallikdan mustaqillikkacha bo‘lgan yorliqlar zanjiri"dan o‘tgan davlatchilik an'analari bugun bizning muqaddas Konstitutsiyamiz va davlat atributlarimizda yashamoqda. Tarixiy yorliqlar bugun zamonaviy xalqaro huquq normalariga aylandi. Biz o‘z tariximizni chuqur bilish orqali mustaqilligimiz qanchalik buyuk ildizlarga ega ekanini anglaymiz. E'tiboringiz uchun rahmat!
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/50 text-xs text-purple-400/90 italic">
+            <strong>Manba:</strong> Азаматзия А. История узбекской государственности. – Ташкент: Шарк, 2000.
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-80 lg:h-[450px] bg-slate-900/80 rounded-xl border border-slate-700/80 overflow-hidden relative">
+          <model-viewer src="globus.glb" alt="Globus 3D Modeli" auto-rotate camera-controls shadow-intensity="1" ar></model-viewer>
+          <div class="absolute bottom-2 right-2 bg-slate-950/70 text-slate-400 text-[10px] px-2 py-1 rounded border border-slate-800">3D Model: globus.glb</div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Pastki Boshqaruv Navigatsiyasi -->
+  <footer class="w-full bg-slate-950 border-t border-slate-800 p-4 sticky bottom-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center space-x-2">
+        <button id="prev-btn" class="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 active:bg-slate-900 text-white font-medium rounded-xl border border-slate-700 transition flex items-center gap-2 text-sm disabled:opacity-40 disabled:cursor-not-allowed">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+          Oldingisi
+        </button>
+        <button id="next-btn" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white font-medium rounded-xl transition flex items-center gap-2 text-sm shadow-lg shadow-blue-600/30">
+          Keyingisi
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </button>
+      </div>
+
+      <!-- Slaydlarga Tezkor O'tish Tugmalari -->
+      <div id="dots-container" class="flex flex-wrap justify-center gap-1.5 max-w-md overflow-x-auto py-1">
+        <!-- JS orqali 20 ta nuqta hosil qilinadi -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Navigatsiya Mantiqiy Skripti -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.slide');
+      const totalSlides = slides.length;
+      let currentSlide = 1;
+
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      const slideIndicator = document.getElementById('slide-indicator');
+      const dotsContainer = document.getElementById('dots-container');
+
+      // 20 ta nuqtani yaratish
+      for (let i = 1; i <= totalSlides; i++) {
+        const dot = document.createElement('button');
+        dot.className = `w-7 h-7 text-xs font-semibold rounded-lg transition border ${i === 1 ? 'bg-blue-600 text-white border-blue-500' : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700'}`;
+        dot.innerText = i;
+        dot.title = `${i}-Slayd`;
+        dot.addEventListener('click', () => goToSlide(i));
+        dotsContainer.appendChild(dot);
+      }
+
+      function updateUI() {
+        slides.forEach((slide, index) => {
+          if (index + 1 === currentSlide) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+
+        slideIndicator.innerText = `Slayd ${currentSlide} / ${totalSlides}`;
+        prevBtn.disabled = currentSlide === 1;
+        
+        if (currentSlide === totalSlides) {
+          nextBtn.innerHTML = `Qayta Boshlash <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>`;
+        } else {
+          nextBtn.innerHTML = `Keyingisi <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
+        }
+
+        const dots = dotsContainer.children;
+        Array.from(dots).forEach((dot, idx) => {
+          if (idx + 1 === currentSlide) {
+            dot.className = 'w-7 h-7 text-xs font-semibold rounded-lg transition border bg-blue-600 text-white border-blue-500 shadow-md';
+          } else {
+            dot.className = 'w-7 h-7 text-xs font-semibold rounded-lg transition border bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700';
+          }
+        });
+      }
+
+      function goToSlide(slideNum) {
+        currentSlide = slideNum;
+ updateUI();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      prevBtn.addEventListener('click', () => {
+        if (currentSlide > 1) {
+          currentSlide--;
+          updateUI();
+        }
+      });
+
+      nextBtn.addEventListener('click', () => {
+        if (currentSlide < totalSlides) {
+          currentSlide++;
+        } else {
+          currentSlide = 1;
+        }
+        updateUI();
+      });
+
+      // Klaviatura orqali boshqarish (chap/o'ng ko'rsatkichlari)
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+          if (currentSlide < totalSlides) {
+            currentSlide++;
+            updateUI();
+          }
+        } else if (e.key === 'ArrowLeft') {
+          if (currentSlide > 1) {
+            currentSlide--;
+            updateUI();
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
